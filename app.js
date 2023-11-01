@@ -5,10 +5,10 @@ title.addEventListener("mouseover", () => {
   title.style.display = "none";
   titleFake.style.display = "flex";
 });
-// title.addEventListener("mouseout", () => {
-//   title.style.display = "flex";
-//   titleFake.style.display = "none";
-// });
+title.addEventListener("mouseout", () => {
+  title.style.display = "flex";
+  titleFake.style.display = "none";
+});
 
 const btn = document.querySelector(".no");
 let position = 0;
